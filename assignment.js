@@ -4,14 +4,16 @@
 
 function kilometerToMeter (kilo){
 
-    var meter=kilo*1000;
-    
-    return meter
-    
-    }
-     
-    var result =kilometerToMeter(5)
-    console.log(result)
+  var meter=kilo*1000
+  if (kilo < 0) {
+      return "distance can not be negative"
+  }
+  return meter
+  
+  }
+   
+  var result =kilometerToMeter(-8)
+  console.log(result)
 
     
     //budgetCalculator
