@@ -1,10 +1,10 @@
-//https://github.com/rashedulalam362/assainment-problem-solve
+//https://github.com/rashedulalam362/assignment-js
 
 //kilometerToMeter
 
 function kilometerToMeter (kilo){
 
-    var meter=kilo*1000
+    var meter=kilo*1000;
     
     return meter
     
